@@ -1,5 +1,3 @@
-import { Metadata } from "next";
-import { defaultMetadata } from "../trash/metadata";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Footer } from "../components/common/footer";
 import { Navbar } from "../components/common/navbar";
@@ -14,8 +12,6 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-export const metadata: Metadata = defaultMetadata;
 
 export default function RootLayout({
   children,
