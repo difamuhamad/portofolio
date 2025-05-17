@@ -32,7 +32,7 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "ARABINESIA",
+    title: "Learning Platform | ARABINESIA",
     description:
       "arabinesia is a learning platform application for learning Indonesian for foreign speakers, with Arabic delivery.",
     media: {
@@ -47,7 +47,7 @@ const projects: Project[] = [
     id: 2,
     title: "Void Story",
     description:
-      "Void story is an application for posting or sharing moments like Instagram but with a lighter version and futuristic design. This application is made using MVP architecture.",
+      "Void story is an application for posting or sharing moments like Instagram but with a lighter version and futuristic design. This application is made using SPA with MVP architecture using vanilla (non-framework) javascript.",
     media: {
       type: "image",
       src: "/projects/void-story-page.webp",
@@ -65,7 +65,7 @@ const projects: Project[] = [
       type: "image",
       src: "/projects/portofolio-web-page.webp",
     },
-    tags: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
+    tags: ["React", "Framer Motion", "Tailwind CSS", "TypeScript"],
     link: "https://github.com/difamuhamad/",
     github: "https://github.com/difamuhamad/void-story",
   },
@@ -225,7 +225,7 @@ export default function Projects() {
                         title="View Live Demo"
                       >
                         <FiExternalLink className="w-4 h-4" />
-                        <span>Live Demo</span>
+                        <span>View Site</span>
                       </button>
                     )}
                   </div>
@@ -314,7 +314,7 @@ export default function Projects() {
                         className="flex items-center gap-2 text-white hover:text-white bg-blue-600 hover:bg-blue-500 px-5 py-2.5 rounded-lg transition-colors text-sm font-medium"
                       >
                         <FiExternalLink className="w-5 h-5" />
-                        <span>Live Demo</span>
+                        <span>View Site</span>
                       </button>
                     )}
                   </div>

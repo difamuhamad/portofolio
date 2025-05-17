@@ -3,11 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "init-vector-store": "tsx scripts/init-vector-store.ts",
-    "embed-theme": "tsx scripts/embed-theme-structure.ts",
-    "dev": "npm run init-vector-store && npm run embed-theme && next dev",
-    "build": "npm run init-vector-store && npm run embed-theme && next build",
-    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {

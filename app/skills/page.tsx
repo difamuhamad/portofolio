@@ -11,6 +11,10 @@ import {
   SiPostgresql,
   SiSupabase,
   SiExpress,
+  SiPostman,
+  SiWebpack,
+  SiFigma,
+  SiPrisma,
 } from "react-icons/si";
 import { FiCode, FiDatabase, FiTool } from "react-icons/fi";
 
@@ -24,12 +28,16 @@ const skills = {
       icon: <SiTailwindcss className="text-[#06B6D4]" />,
     },
     { name: "JavaScript", icon: <SiJavascript className="text-[#F7DF1E]" /> },
+    { name: "Webpack", icon: <SiWebpack className="text-[#06B6D4]" /> },
+    { name: "Figma", icon: <SiFigma className="text-[#ff008c]" /> },
   ],
   "Backend Development": [
     { name: "PostgreSQL", icon: <SiPostgresql className="text-[#336791]" /> },
     { name: "MySQL", icon: <SiMysql className="text-[#4479A1]" /> },
     { name: "Supabase", icon: <SiSupabase className="text-[#3ECF8E]" /> },
     { name: "Express", icon: <SiExpress className="text-[#000000]" /> },
+    { name: "Prisma", icon: <SiPrisma className="text-[#000000]" /> },
+    { name: "Postman", icon: <SiPostman className="text-[#ff5825]" /> },
   ],
 };
 

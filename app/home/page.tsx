@@ -105,7 +105,7 @@ export default function HomePage() {
                   {/* Image placeholder - replace with your actual Image component */}
                   <div className="absolute inset-0 bg-gray-200">
                     <Image
-                      src="/profile.webp"
+                      src="/vivy-profile2.webp"
                       alt="Profile picture"
                       fill
                       className="object-cover"

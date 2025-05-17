@@ -23,7 +23,7 @@ export default function ExperiencePage() {
             <p className="text-gray-600 text-sm leading-relaxed">
               Graduated from Islamic boarding school with the Valedictorian
               honor (Top Graduate), and completed the memorization of 15
-              chapters (juz) of the Qur&atos;an
+              chapters (juz) of the Qur&apos;an
             </p>
           </div>
         </div>

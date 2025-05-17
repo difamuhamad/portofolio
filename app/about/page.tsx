@@ -85,8 +85,12 @@ export default function About() {
                 Development into a successful career by building company and
                 client projects, now honing skills in Golang technology to solve
                 problems and mastering Backend Development.
-                <br />
-                I&apos;m always looking out for new things to explore. I love to
+              </p>
+              <p
+                id="about-description-2"
+                className="text-lg md:text-xl text-gray-600 leading-relaxed"
+              >
+                I always looking out for new things to explore. I love to
                 collaborate with like-minded people who are fueled by curiosity.
                 I work with TypeScript/JavaScript ecosystems for my web
                 development projects.
